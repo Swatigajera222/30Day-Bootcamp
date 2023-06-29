@@ -800,18 +800,19 @@ ul {
     border-radius: 10px;
   }
   .sortable-wrap .bootcamp-start h3 {
-    font-size: 30px;
+    font-size: 26px;
   }
   #countdown {
     gap: 0px;
     margin-top: 30px;
     margin-bottom: 40px;
+    justify-content: space-between;
   }
   #countdown .vertical-text {
-    font-size: 28px;
+    font-size: 20px;
     line-height: 30px;
-    width: 50%;
-    margin-bottom: 30px;
+    /* width: 22%; */
+    margin-bottom: 0px;
   }
   #countdown .vertical-mobile {
     margin-bottom: 0px !important;
@@ -896,7 +897,7 @@ ul {
 }
 @media only screen and (max-width: 400px) {
   .sortable-wrap .bootcamp-start h3 {
-    font-size: 25px;
+    font-size: 22px;
   }
   .video-area iframe {
     height: 195px;
@@ -925,5 +926,8 @@ ul {
   }
   .annual-membership .annual-membership-inner h2 {
     font-size: 35px;
+  }
+  #countdown .vertical-text {
+    font-size: 18px;
   }
 }
