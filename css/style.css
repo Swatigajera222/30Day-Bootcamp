@@ -809,9 +809,8 @@ ul {
     justify-content: space-between;
   }
   #countdown .vertical-text {
-    font-size: 20px;
+    font-size: 23px;
     line-height: 30px;
-    /* width: 22%; */
     margin-bottom: 0px;
   }
   #countdown .vertical-mobile {
@@ -928,6 +927,6 @@ ul {
     font-size: 35px;
   }
   #countdown .vertical-text {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
