@@ -85,7 +85,7 @@ ul {
   background-color: rgba(0, 0, 0, 0.54);
   z-index: 9;
   width: 100%;
-  position: absolute;
+  /* position: absolute; */
 }
 .header-section .brand-logo {
   width: 200px;
