@@ -753,8 +753,8 @@
     <!-- END-wow-animation -->
     <!-- countdown -->
     <script>
-      // Set the date and time for the countdown (July 15th, 2023 at 23:00 pm PST)
-      var countDownDate = new Date("July 15, 2023 23:00:00 PST").getTime();
+      // Set the date and time for the countdown (July 15th, 2023 at 23:00 PST)
+      var countDownDate = new Date("July 15, 2023 22:00:00 PST").getTime();
 
       // Update the countdown every second
       var countdownClock = setInterval(function () {
@@ -778,7 +778,7 @@
           <p class="vertical-text">${hours}<span>hours</span></p> 
           <p class="vertical-text vertical-mobile">${minutes}<span>minutes</span></p> 
           <p class="vertical-text vertical-mobile">${seconds}<span>seconds</span></p> 
-        `;
+          `;
 
         // Update the HTML element with the countdown text
         document.getElementById("countdown").innerHTML = countdownText;
