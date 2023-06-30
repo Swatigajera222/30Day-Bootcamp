@@ -72,7 +72,7 @@
     <section class="sortable-wrap">
       <div class="container">
         <div class="bootcamp-start">
-          <h3><span>Starts:</span> Saturday July 15th, 2023</h3>
+          <h3 id="title"><span>Starts:</span> Saturday July 15th, 2023</h3>
         </div>
         <!-- countdown-main -->
         <div id="countdown"></div>
@@ -788,6 +788,7 @@
           clearInterval(countdownClock);
           document.getElementById("countdown").innerHTML =
             "<p> IT'S NEVER TOO LATE TO MAKE A CHANGE FOR THE BETTER</p>";
+          document.getElementById("title").style.display = "none";
         }
       }, 1000); // Repeat every second (1000 milliseconds)
     </script>
